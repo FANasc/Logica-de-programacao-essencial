@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="N&#233;ia"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-07-07 03:22:28 "/>
+        <attribute name="saved" value="2021-07-07 03:56:37 "/>
         <attribute name="created" value="TsOpaWE7VlNQOzIwMjEtMDctMDc7IjEyOjA0OjU3ICI7MTk1NQ=="/>
-        <attribute name="edited" value="TsOpaWE7VlNQOzIwMjEtMDctMDc7IjAzOjIyOjI4ICI7MjsyMDYy"/>
+        <attribute name="edited" value="TsOpaWE7VlNQOzIwMjEtMDctMDc7IjAzOjU2OjM3ICI7MzsyMDcw"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,7 +16,7 @@
             <input variable="fevereiro"/>
             <input variable="marco"/>
             <input variable="abril"/>
-            <assign variable="media" expression="(janeiro+feveiro+marco+abril)/4"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
             <if expression="media&gt;=5000">
                 <then>
                     <output expression="&quot;Parab&#233;ns! Voc&#234; vai receber um abono de 10%!&quot;" newline="True"/>
